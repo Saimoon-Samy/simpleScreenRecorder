@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Screen Recorder</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="background-image: url('pxfuel.jpg');">
     <center>
         <div id="app" class="main">
-            <video class="rcd" width="80%" id="recording" controls></video>
+            <video class="rcd" width="80%" id="recording" controls style="padding-top: 20%;"></video>
             <video id="preview" controls muted style="display: none;"></video>
-            <div id="controls">
+            <div id="controls" class="btn">
                 <button id="startRecording">Start Recording</button>
                 <button id="stopRecording" disabled>Stop Recording</button>
                 <button id="playPreview" disabled>Play Preview</button>
